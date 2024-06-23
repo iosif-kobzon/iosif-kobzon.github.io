@@ -89,7 +89,7 @@ body {
 #leftPanel, #rightPanel {
   position: relative;
   z-index: 2;
-  width: 47%;
+  width: 20%;
 }
 
 /* LEFT PANEL */
