@@ -7,7 +7,7 @@
     "slideshow" : {
       "active" : true,
       "speed" : 1000,
-      "time" : 5000,
+      "time" : 10000,
       "random" : true,
       "image" : [
         "img/bg1.jpg",
@@ -28,8 +28,9 @@
     }
   },
   "rules": [
-    {"line" : "HERE ARE ALL THE RULES YOU WANT TO SHOW TO YOUR USERS."},
-    {"line" : "THERE IS A LIMIT OF 8 LINES."},
-    {"line" : "DON'T USE THE <b>&lt;br&gt;</b> TAG TO JUMP LINES. IT WILL BE DONE AUTOMATICALLY!!!"}
+    {"line" : "1. No Propspam, or other exploits that could crash the server."},
+    {"line" : "2. No E2 / PAC abuse. (Or using any other addons to abuse)"},
+    {"line" : "3. Don't be a smartass around the rules, loopholes won't save you."},
+    {"line" : "4. And lastly, enjoy your stay and have fun; or else!"}
   ]
 }
