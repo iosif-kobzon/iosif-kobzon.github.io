@@ -1,6 +1,6 @@
 /* Background image and color. */
 body {
-    background: #CCCCCC url("img/bg.png");
+    background: #000000 url("img/bg.png");
 }
 
 /* Background color of the left panel. */
@@ -11,7 +11,7 @@ header {
 /* Color/background color of the titles "SERVER NAME" and "RULES" */
 h1, #player {
     color: white;
-    background-color: #C50D0E;
+    background-color: #A31515;
 }
 
 /* Background color of the progress bar. */
@@ -21,5 +21,5 @@ h1, #player {
 
 /* Color of the filled part of the progress bar. */
 #loadBar-width {
-    background-color: #C50D0E;
+    background-color: #A31515;
 }

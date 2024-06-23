@@ -1,18 +1,23 @@
 {
   "server": {
-    "name": "GoulpLoader",
+    "name": "Gladius Sandbox",
     "banner": "img/banner.png"
   },
   "plugins" : {
     "slideshow" : {
-      "active" : false,
+      "active" : true,
       "speed" : 1000,
       "time" : 5000,
-      "random" : false,
+      "random" : true,
       "image" : [
-        "http://i.ytimg.com/vi/4LRvEYsZNfY/maxresdefault.jpg",
-        "http://cloud-4.steampowered.com/ugc/510328173857488907/D3C86C34DCE410D2C4ED0C3AA06F7ED41ECF468A/",
-        "http://i.ytimg.com/vi/66_hi3AfwT0/maxresdefault.jpg"
+        "img/bg1.png",
+        "img/bg2.png",
+        "img/bg3.png",
+        "img/bg4.png",
+        "img/bg5.png",
+        "img/bg6.png",
+        "img/bg7.png",
+        "img/bg8.png",	
       ]
     },
     "music" : {
