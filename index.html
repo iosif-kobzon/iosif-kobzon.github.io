@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Welcome to the main file of GoulpLoader. This HTML page is already filled with information showing know how to modify the file. When you have finished, you can delete all these comments. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Your server name will be added automatically. You can configure the name in the "config.json" file -->
+    <title>GoulpLoader - Used by </title>
+    <!-- Same thing for the description -->
+    <meta name="description" content="GoulpLoader - Used by ">
+    <!-- If you want to help me, do not modify this line. Thank you :) -->
+    <meta name="author" content="iKlem">
+    <!-- CSS - All stylesheets are loaded here. -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsiveslides.css">
+    <link rel="stylesheet" href="user.css">
+    <!-- JQUERY SCRIPTS - All jQuery scripts are loaded here too. -->
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jQueryColor.js"></script>
+    <script type="text/javascript" src="js/jQueryUI.js"></script>
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftPanel">
+        <h1 id="servName">ServerName</h1>
+        <img class='gmodIMG' id="imgLeft" src="img/gmod.svg" />
+        <h2 id="gameMode">Gamemode</h2>
+        <img id="imgLeft" src="img/map.svg" /><h2 id="map">Mapname</h2>
+        <span id="imgLoad">
+          <img id="noBorder" class="walk" src="img/gear.svg" width="90px" />
+        </span>
+        <!-- The stateLoad will be modified by the JavaScript. -->
+        <h2 id="stateLoad">Connecting...</h2>
+        <!-- This information will be filled in when you have connected to the server. -->
+        <div id="nbFiles">
+          <div id="loadBar"><div id="loadBar-width"></div></div>
+          <div id="progressInfo"> - - - </div>
+          <div id="progressInfoWS"> - - - </div>
+        </div>
+        <div id="versionNo">GoulpLoader v1.1.1</div>
+      </div>
+      <div id="rightPanel">
+        <!-- This is your server banner. The image must be 630px by 181px. The "alt" value will be modified automatically. You need to open config.json to add your banner. -->
+        <div id="serverBanner">
+          <img src="" alt="EMPTY" />
+        </div>
+        <!-- Do not touch this container. This is the last information when you have "Sending Client Info" with the badass animation :P -->
+        <h1 id="serverInfo"></h1>
+        <!-- This is the rules panel. You can modify all the text in capital letters -->
+        <div id="rules">
+          <h1>RULES</h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!-- Yay! The slideshow and the music plugins are here! More info on the wiki (https://github.com/iKlem/GoulpLoader/wiki) -->
+    <ul class="rslides"></ul>
+    <div id="musicContainer">
+      <h3 id="musicTitle"></h3>
+      <audio loop id="musicPlayer" src=""></audio>
+    </div>
+    <!-- This line is where the magic happens. DO NOT TOUCH THESE LINES! -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/loadConfig.js"></script>
+  </body>
+</html>
+<!-- And this is the end of the file... I'm serious here. ;) Thank you for using this loading screen for your Garry's Mod server. Feel free to make a donation on the GitHub Page. :) -->
