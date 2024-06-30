@@ -150,12 +150,12 @@ function animationBar() {
   }
 }
 // Animate the panels when the message "Sending Client Info" is sent.
-function animateFinal() {
-  $("#leftPanel").animate({left:"-55%"}, 500, "easeOutExpo");
-  $("#rules").animate({left:"175%"}, 500, "easeOutExpo");
-  $("#rightPanel").animate({right:"25%"}, 500, "easeOutExpo", function() {
-    $("#serverBanner").animate({top:"20px"}, 500, "easeOutExpo");
-    $("#serverInfo").animate({opacity:"0.8", top:"50%"}, 500, "easeOutExpo");
-  });
-  clearInterval(animationFunction);
-}
+// function animateFinal() {
+//  $("#leftPanel").animate({left:"-55%"}, 500, "easeOutExpo");
+//  $("#rules").animate({left:"175%"}, 500, "easeOutExpo");
+//  $("#rightPanel").animate({right:"25%"}, 500, "easeOutExpo", function() {
+//    $("#serverBanner").animate({top:"20px"}, 500, "easeOutExpo");
+//    $("#serverInfo").animate({opacity:"0.8", top:"50%"}, 500, "easeOutExpo");
+//  });
+//  clearInterval(animationFunction);
+// }
