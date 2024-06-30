@@ -14,7 +14,7 @@ body {
   padding: 0px;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
-  color: #000000;
+  color: #FFFFFF;
   overflow: hidden;
 }
 #break {
@@ -95,39 +95,39 @@ body {
 }
 h1 {
   margin: 0px;
-  height: 80px;
-  font-size: 2.5em;
+  height: 47px;
+  font-size: 2em;
+  padding: 10px;
 }
 #nbFiles, #stateLoad,  #gameMode, #map, #imgLeft, #imgLoad {
   margin: 0;
   height: 90px;
   padding: 5px;
-  border-bottom: 1px solid #b8b8b8;
+  border-bottom: 20px ridge #A31515;
   line-height: 90px;
 }
 #imgLeft, #imgLoad {
   float: left;
   width: 90px;
   padding: 5px;
-  border-right: 1px solid #b8b8b8;
 }
 #stateLoad, #nbFiles {
   font-weight: bold;
   line-height: 40px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 #progressInfo, #progressInfoWS {
   display: block;
-  text-align: right;
+  text-align: center;
   font-size: 15px;
   line-height: 17px;
 }
 #nbFiles {
   border: none;
-  height: 60px;
+  height: 75px;
 }
 #stateLoad {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
 	line-height: auto;
 }
