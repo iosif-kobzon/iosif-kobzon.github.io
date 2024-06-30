@@ -5,7 +5,7 @@ body {
 
 /* Background color of the left panel. */
 header {
-    background: #303030;
+    background: #505050;
 }
 
 /* Color/background color of the titles "SERVER NAME" and "RULES" */
@@ -16,7 +16,7 @@ h1, #player {
 
 /* Background color of the progress bar. */
 #loadBar {
-    background-color: #252525;
+    background-color: #050505;
 }
 
 /* Color of the filled part of the progress bar. */
@@ -26,7 +26,7 @@ h1, #player {
 
 #leftPanel {
     border-radius: 15px;
-    opacity: 75%;
+    opacity: 90%;
 }
 
 #servName {
@@ -35,7 +35,7 @@ h1, #player {
 }
 
 #rightPanel {
-    opacity: 75%;
+    opacity: 90%;
 }
 
 #rules {
