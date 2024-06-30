@@ -28,7 +28,9 @@
     }
   },
   "rules": [
-    {"line" : "1. No Propspam, or other exploits that could crash the server."},
+    {"line" : "  This list is NOT exhaustive and WILL be adjusted with time."},
+	{"line" : " "},
+	{"line" : "1. No Propspam, or other exploits that could crash the server."},
     {"line" : "2. No E2 / PAC abuse. (Or using any other addons to abuse)"},
     {"line" : "3. Don't be a smartass around the rules, loopholes won't save you."},
     {"line" : "4. And lastly, enjoy your stay and have fun; or else!"}
