@@ -128,7 +128,6 @@ function SetStatusChanged(status) {
 }
 // Called when the loading screen finishes loading all assets.
 function GameDetails(servername, serverurl, mapname, maxplayers, steamid, gamemode) {
-  $("#servName").html(servername);
   for(index = 0; index < gamemodesShorts.length; index++) {
     if(gamemode == gamemodesShorts[index]) {
       $("#gameMode").html(gamemodesTitle[index]);

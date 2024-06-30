@@ -27,7 +27,7 @@ h1, #player {
 #leftPanel {
     border-radius: 15px;
     opacity: 90%;
-	background-color: #444444;
+	background-color: #1a1414;
 }
 
 #servName {
@@ -41,7 +41,7 @@ h1, #player {
 
 #rules {
     border-radius: 15px;
-    background-color: #444444;
+    background-color: #1a1414;
     box-shadow: 4px 4px 15px #121212;
 }
 
