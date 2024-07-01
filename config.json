@@ -17,7 +17,9 @@
         "img/bg5.jpg",
         "img/bg6.jpg",
         "img/bg7.jpg",
-        "img/bg8.png"
+        "img/bg8.png",
+		"img/bg9.jpg",
+		"img/bg10.jpg"
       ]
     },
     "music" : {
@@ -31,7 +33,7 @@
     {"line" : "  This list is NOT exhaustive and WILL be adjusted with time."},
 	{"line" : " "},
 	{"line" : "1. No Propspam, or other exploits that could crash the server."},
-    {"line" : "2. No E2 / PAC abuse. (Or using any other addons to abuse)"},
+    {"line" : "2. No E2, PAC and Wiremod abuse (And abuse of any other addon, for that matter)."},
     {"line" : "3. Don't be a smartass around the rules, loopholes won't save you."},
     {"line" : "4. And lastly, enjoy your stay and have fun; or else!"}
   ]
