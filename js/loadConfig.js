@@ -14,6 +14,10 @@ $.getJSON('./config.json', function (data) {
     $("#rules p").append(data.rules[i].line + "<br>");
   }
 
+  for(var i = 0; i < data.features.length; i++) {
+    $("#features p").append(data.features[i].line + "<br>");  
+  }
+
   //SlideShow Plugin
   var slideshow = data.plugins.slideshow;
   if(slideshow.active) {

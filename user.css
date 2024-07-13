@@ -37,6 +37,16 @@ h1, #player {
 
 #rightPanel {
     opacity: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#rightBottomPanel {
+    opacity: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #rules {
@@ -52,5 +62,21 @@ h1, #player {
 }
 
 #rules p {
+    color: white;
+}
+
+#features {
+    border-radius: 15px;
+    background-color: #1a1414;
+    box-shadow: 4px 4px 15px #121212;
+}
+
+#features h1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 40px;
+}
+
+#features p {
     color: white;
 }

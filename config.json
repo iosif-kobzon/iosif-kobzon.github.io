@@ -36,5 +36,11 @@
     {"line" : "2. No E2, PAC and Wiremod abuse (And abuse of any other addon, for that matter)."},
     {"line" : "3. Don't be a smartass around the rules, loopholes won't save you."},
     {"line" : "4. And lastly, enjoy your stay and have fun; or else!"}
+  ],
+  "features": [
+    {"line" : "Build / PVP"},
+	{"line" : "Wiremod"},
+    {"line" : "M9K / ARC9"},
+    {"line" : "LVS"}
   ]
 }
